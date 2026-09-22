@@ -1,6 +1,18 @@
 {
-  "home": {
+  "system": {
     "name": "ポラリス",
+    "nav": [
+      {
+        "name": "英語",
+        "locale": "en"
+      },
+      {
+        "name": "日本語",
+        "locale": "ja"
+      }
+    ]
+  },
+  "home": {
     "welcome": "{name}へようこそ",
     "desc": "i18n、Markdownベースのコンテンツ、ダークモードに対応した、スケーラブルなブログテンプレート"
   }

@@ -1,12 +1,7 @@
-import { notFound } from "next/navigation";
-import { getDictionary, hasLocale } from "./dictionaries";
+import { getDictionary } from "./dictionaries";
 
-const Home = async ({ params }: PageProps<"/[lang]">) => {
-  const { lang } = await params;
-
-  if (!hasLocale(lang)) notFound();
-
-  const dict = await getDictionary(lang);
+const Home = async () => {
+  const dict = await getDictionary();
 
   const parts = dict.home.welcome.split("{name}");
 
@@ -15,7 +10,7 @@ const Home = async ({ params }: PageProps<"/[lang]">) => {
       <div className="h-[calc(100svh-10rem)] flex flex-col justify-center gap-10">
         <h1 className="text-7xl">
           {parts[0]}
-          <strong className="capitalize">{dict.home.name}</strong>
+          <strong className="capitalize">{dict.system.name}</strong>
           {parts[1]}
         </h1>
         <p className="text-xl">{dict.home.desc}</p>

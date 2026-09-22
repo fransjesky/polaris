@@ -1,16 +1,9 @@
 import Link from "next/link";
+import { getDictionary } from "@/[lang]/dictionaries";
 
-export const Header = () => {
-  const languages = [
-    {
-      name: "english",
-      locale: "en",
-    },
-    {
-      name: "japanese",
-      locale: "ja",
-    },
-  ];
+export const Header = async () => {
+  const dict = await getDictionary();
+  const languages = dict.system.nav;
 
   return (
     <div className="h-20 w-full flex justify-center items-center gap-6">

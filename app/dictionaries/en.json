@@ -1,6 +1,18 @@
 {
-  "home": {
+  "system": {
     "name": "Polaris",
+    "nav": [
+      {
+        "name": "english",
+        "locale": "en"
+      },
+      {
+        "name": "japanese",
+        "locale": "ja"
+      }
+    ]
+  },
+  "home": {
     "welcome": "Welcome to {name}",
     "desc": "A scalable blog template with i18n, Markdown-powered content, and dark mode support"
   }
