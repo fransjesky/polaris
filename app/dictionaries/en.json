@@ -10,10 +10,11 @@
         "name": "japanese",
         "locale": "ja"
       }
-    ]
+    ],
+    "copyright": "Copyright © {year} Polaris"
   },
   "home": {
-    "welcome": "Welcome to {name}",
+    "welcome": "Welcome to {name}!",
     "desc": "A scalable blog template with i18n, Markdown-powered content, and dark mode support"
   }
 }

@@ -10,10 +10,11 @@
         "name": "日本語",
         "locale": "ja"
       }
-    ]
+    ],
+    "copyright": "Copyright © {year} Polaris"
   },
   "home": {
-    "welcome": "{name}へようこそ",
+    "welcome": "{name}へようこそ！",
     "desc": "i18n、Markdownベースのコンテンツ、ダークモードに対応した、スケーラブルなブログテンプレート"
   }
 }

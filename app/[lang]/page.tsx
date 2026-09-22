@@ -10,7 +10,9 @@ const Home = async () => {
       <div className="h-[calc(100svh-10rem)] flex flex-col justify-center gap-10">
         <h1 className="text-7xl">
           {parts[0]}
-          <strong className="capitalize">{dict.system.name}</strong>
+          <strong className="capitalize text-sky-500">
+            {dict.system.name}
+          </strong>
           {parts[1]}
         </h1>
         <p className="text-xl">{dict.home.desc}</p>
