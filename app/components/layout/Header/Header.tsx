@@ -3,7 +3,7 @@ import { getDictionary } from "@/[lang]/dictionaries";
 
 export const Header = async () => {
   const dict = await getDictionary();
-  const languages = dict.system.nav;
+  const languages = dict.system.locale;
 
   return (
     <div className="h-20 w-full flex justify-center items-center gap-6">

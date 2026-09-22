@@ -1,7 +1,7 @@
 {
   "system": {
     "name": "Polaris",
-    "nav": [
+    "locale": [
       {
         "name": "english",
         "locale": "en"
