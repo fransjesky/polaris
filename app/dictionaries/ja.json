@@ -1,10 +1,15 @@
 {
   "system": {
     "name": "ポラリス",
+    "language": "ja",
     "locale": [
       {
         "name": "英語",
         "locale": "en"
+      },
+      {
+        "name": "フランス語",
+        "locale": "fr"
       },
       {
         "name": "日本語",
@@ -14,6 +19,7 @@
     "copyright": "Copyright © {year} Polaris"
   },
   "home": {
+    "tagline": "開発者ブログ",
     "welcome": "{name}へようこそ！",
     "desc": "i18n、Markdownベースのコンテンツ、ダークモードに対応した、スケーラブルなブログテンプレート"
   }

@@ -1,10 +1,15 @@
 {
   "system": {
     "name": "Polaris",
+    "language": "en",
     "locale": [
       {
         "name": "english",
         "locale": "en"
+      },
+      {
+        "name": "french",
+        "locale": "fr"
       },
       {
         "name": "japanese",
@@ -14,6 +19,7 @@
     "copyright": "Copyright © {year} Polaris"
   },
   "home": {
+    "tagline": "a developer blog",
     "welcome": "Welcome to {name}!",
     "desc": "A scalable blog template with i18n, Markdown-powered content, and dark mode support"
   }
