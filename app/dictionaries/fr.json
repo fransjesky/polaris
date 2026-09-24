@@ -1,0 +1,26 @@
+{
+  "system": {
+    "name": "Polaris",
+    "language": "fr",
+    "locale": [
+      {
+        "name": "anglais",
+        "locale": "en"
+      },
+      {
+        "name": "français",
+        "locale": "fr"
+      },
+      {
+        "name": "japonais",
+        "locale": "ja"
+      }
+    ],
+    "copyright": "Copyright © {year} Polaris"
+  },
+  "home": {
+    "tagline": "un blog de développement",
+    "welcome": "Bienvenue sur {name} !",
+    "desc": "Un modèle de blog évolutif avec prise en charge de l’i18n, du contenu basé sur Markdown et du mode sombre"
+  }
+}

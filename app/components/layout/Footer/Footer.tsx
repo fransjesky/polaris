@@ -8,7 +8,7 @@ export const Footer = async () => {
 
   return (
     <div className="h-20 flex justify-center items-center">
-      <p className="text-gray-500">
+      <p className="text-slate-500">
         {parts[0]} {year} {parts[1]}
       </p>
     </div>
